@@ -25,7 +25,7 @@ if (isset($_GET['id'])){
             echo "<div class='alert alert-success'>Xóa nhân viên thành công ! <a href='index.php'>Trang chủ</a></div>";
             ?>
             <script type="text/javascript">
-                window.location = "http://localhost/PHP1902_Duong/CRUD_App/index.php";
+                window.location = "http://localhost/learnsql/day2/crudphp/index1.php";
             </script>
             <?php
         } else echo "<div class='alert alert-danger'>Xóa thất bại ! </div>";
