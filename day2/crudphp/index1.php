@@ -16,7 +16,7 @@
 <body>
 <?php
     // nạp file kết nối CSDL
-    include_once "index.php";2
+    include_once "index.php";
     ?>
 
 

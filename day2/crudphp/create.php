@@ -46,7 +46,7 @@ $sqlInsert = "INSERT INTO employees (name, address, salary) VALUES ('$name', '$a
 $result = $connection->query($sqlInsert);
 if ($result == true) {
 echo "<div class='alert alert-success'>
-    Thêm mới nhân viên thành công ! <a href='index.php'>Trang chủ</a>
+    Thêm mới nhân viên thành công ! <a href='index1.php'>Trang chủ</a>
 </div>";
 } else {
 echo "<div class='alert alert-danger'>
