@@ -10,7 +10,7 @@ class EmployeeController {
         $resul = $model->getAll();
 
         // trả về view cho phần hiển thị
-        include_once "mvc/views/index.php";
+        include_once "mvc/views/employee/index.php";
     }
     public function create() {
         if (isset($_POST) && !empty($_POST)) {
@@ -25,7 +25,7 @@ class EmployeeController {
 
         // trả về view cho phần hiển thị;
 
-        include_once "mvc/views/create.php";
+        include_once "mvc/views/employee/create.php";
     }
     public function edit() {
         if (isset($_POST) && !empty($_POST)) {
@@ -46,7 +46,7 @@ class EmployeeController {
         echo "URL không hợp lệ";
         exit;
         // trả về view cho phần hiển thị
-        include_once "mvc/views/edit.php";
+        include_once "mvc/views/employee/edit.php";
     }
     public function delete() {
         if (isset($_POST) && !empty($_POST["id"])) {
@@ -60,6 +60,6 @@ class EmployeeController {
         }
         // trả về view cho phần hiển thị
             // trả về view cho phần hiển thị
-        include_once "mvc/views/delete.php";
+        include_once "mvc/views/employee/delete.php";
     }
 }
